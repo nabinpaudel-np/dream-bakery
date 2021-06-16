@@ -23,6 +23,7 @@ body {
     width: 200px;
     float: left;
     margin: 0.5em;
+    margin-left: 2em;
 }
 
 #header-right {
@@ -30,12 +31,15 @@ body {
     width: inherit;
     text-align: center;
     float: right;
-    margin-right: 5em;
-    margin: 2em;
+    margin-right: 2em;
 }
 
 #header-right h1 {
     color: honeydew;
+}
+
+#header-right h2 {
+    color: rgb(201, 201, 201);
 }
 
 #header img {
@@ -63,9 +67,10 @@ body {
 #photos img{
     background-color: coral;
     width: 30%;
-    height: 300px;
+    height: 8em;
     float: left;
     margin: 1.66%;
+    object-fit: cover;
 }
 
 
