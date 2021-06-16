@@ -1,10 +1,32 @@
 body {
     background-color: rgb(53, 61, 62);
+    margin: 10 auto;
 }
 
 #header {
     margin: 10px auto;
     background-color: rgb(42, 46, 42);
+    width: inherit;
+    height: 120px;
+}
+
+#header-left {
+    width: 200px;
+    float: left;
+    margin: 0.5em;
+}
+
+#header-right {
+    /* background-color: floralwhite; */
+    width: inherit;
+    text-align: center;
+    float: right;
+    margin-right: 5em;
+    margin: 2em;
+}
+
+#header-right h1 {
+    color: honeydew;
 }
 
 #header img {
@@ -15,11 +37,7 @@ body {
     background-color:whitesmoke;
 }
 
-#header-right {
-    background-color: floralwhite;
-    width: 500px;
-    text-align: center;
-}
+
 
 #footer {
     background-color: whitesmoke;
