@@ -1,8 +1,9 @@
+html,
 body {
     background-color: rgb(53, 61, 62);
     margin: 10px 5%;
     width: inherit;
-    height: inherit;
+    height: 100%;
 }
 
 
@@ -54,7 +55,8 @@ body {
 
 #photos {
     float: left;
-    width: 90%;
+    width: inherit;
+    margin-top: 0.5em;
 }
 
 
