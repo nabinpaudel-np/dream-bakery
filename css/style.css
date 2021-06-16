@@ -15,10 +15,10 @@ body {
     background-color:whitesmoke;
 }
 
-#header h1 {
-    align-items: left;
+#header-right {
     background-color: floralwhite;
     width: 500px;
+    text-align: center;
 }
 
 #footer {
@@ -28,4 +28,13 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 200;
     font-size: 130%;
+    padding: 0.2em;
+    text-align: center;
+}
+
+#footer a {
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: red;
+    padding: 1px;
 }
