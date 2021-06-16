@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(53, 61, 62);
+}
+
+#header {
+    margin: 10px auto;
+    background-color: rgb(42, 46, 42);
+}
+
+#header img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color:whitesmoke;
+}
+
+#header h1 {
+    align-items: left;
+    background-color: floralwhite;
+    width: 500px;
+}
