@@ -57,12 +57,13 @@ body {
     width: 90%;
 }
 
+
 #photos img{
     background-color: coral;
     width: 30%;
     height: 300px;
-    padding: 1em;
     float: left;
+    margin: 1.66%;
 }
 
 
