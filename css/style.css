@@ -1,6 +1,14 @@
 body {
     background-color: rgb(53, 61, 62);
-    margin: 10 auto;
+    margin: 10px 5%;
+    width: inherit;
+    height: inherit;
+}
+
+
+.check{
+    background-color: ghostwhite;
+    padding: 10px;
 }
 
 #header {
@@ -37,6 +45,25 @@ body {
     background-color:whitesmoke;
 }
 
+#photos {
+    float: left;
+    margin: auto;
+    background-color: rgb(61, 46, 40);
+
+}
+
+#photos {
+    float: left;
+    width: 90%;
+}
+
+#photos img{
+    background-color: coral;
+    width: 30%;
+    height: 300px;
+    padding: 1em;
+    float: left;
+}
 
 
 #footer {
@@ -48,6 +75,8 @@ body {
     font-size: 130%;
     padding:0.5px;
     text-align: center;
+    margin: auto;
+    margin-top: 1em;
 }
 
 #footer a {
