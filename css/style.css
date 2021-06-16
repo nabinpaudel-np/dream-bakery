@@ -24,17 +24,17 @@ body {
 #footer {
     background-color: whitesmoke;
     width: auto;
-    height: 25px;
+    height: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 200;
     font-size: 130%;
-    padding: 0.2em;
+    padding:0.5px;
     text-align: center;
 }
 
 #footer a {
     color: whitesmoke;
     text-decoration: none;
-    background-color: red;
+    background-image: linear-gradient(rgb(225,48,108), rgb(88,81,219));
     padding: 1px;
 }
