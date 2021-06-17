@@ -73,15 +73,14 @@ body {
 
 .welcome{
     color: white;
-    font-size: 300%;
+    font-size: 200%;
     font-weight: 900;
     padding-top: 3%;
     position: relative;
-    top: 25%;  
+    top: 15%;  
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -96,21 +95,49 @@ body {
   }
   @keyframes typewriter{
     from{width: 0;}
-    to{width: 24em;}
+    to{width: 15em;}
   }
   @keyframes blinkTextCursor{
-    from{border-right-color: rgba(255,255,255,.0);}
+    from{border-right-color: rgba(29, 27, 27, 0);}
     to{border-right-color: transparent;}
   }
 
 #about-bakery span {
     color: whitesmoke;
     top: 70%;
+    font-size: 100%;
+    margin-top: ;
+    padding-top: 1em;
 }
+
+.orderbutton {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 1em;
+}
+  
+.orderbutton:hover {
+    background-color: #3e8e41
+}
+  
+.orderbutton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
 
 #photos {
     float: left;
-    margin: 0 auto;
+    margin: auto;
     width: inherit;
     height: auto;
     background-color: rgb(61, 46, 40);
@@ -123,6 +150,18 @@ body {
     margin: 1.6%;
     object-fit: cover;
 }
+
+.zoom {
+    background-color: green;
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
 
 /* .bottom{
     margin-top: 10px;
