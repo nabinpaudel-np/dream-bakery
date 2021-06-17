@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     background-color: rgb(53, 61, 62);
@@ -52,6 +56,56 @@ body {
     border-radius: 50%;
     padding: 2px;
     background-color:whitesmoke;
+}
+
+#about-bakery {
+    background-color: rgb(161, 144, 144);
+    text-align: center;
+    margin-bottom: 1em;
+    border-radius: 0 0 1em 1em;
+    border-bottom: 5px solid darkgrey;
+    height: 15em;
+    object-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+
+.welcome{
+    color: white;
+    font-size: 300%;
+    font-weight: 900;
+    padding-top: 3%;
+    position: relative;
+    top: 25%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); 
+
+}
+
+
+.typewriter-animation{
+    animation: typewriter 6s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 24em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.0);}
+    to{border-right-color: transparent;}
+  }
+
+#about-bakery span {
+    color: whitesmoke;
+    top: 70%;
 }
 
 #photos {
