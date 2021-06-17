@@ -1,45 +1,47 @@
 html,
 body {
     background-color: rgb(53, 61, 62);
-    margin: 10px 5%;
+    margin: 0.1em 2%;
     width: inherit;
     height: 100%;
 }
 
-
-.check{
-    background-color: ghostwhite;
-    padding: 10px;
-}
 
 #header {
     margin: 10px auto;
     background-color: rgb(42, 46, 42);
     width: inherit;
     height: 120px;
+    border-bottom: 3px solid black;
 }
 
 #header-left {
-    width: 200px;
+    width: 40%;
     float: left;
     margin: 0.5em;
     margin-left: 2em;
 }
 
 #header-right {
-    /* background-color: floralwhite; */
-    width: inherit;
+    width: 40%;
     text-align: center;
     float: right;
     margin-right: 2em;
+    height: auto;
 }
 
 #header-right h1 {
     color: honeydew;
+    text-transform: uppercase;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
 }
 
 #header-right h2 {
     color: rgb(201, 201, 201);
+    font-size: auto;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 300;
 }
 
 #header img {
@@ -52,30 +54,26 @@ body {
 
 #photos {
     float: left;
-    margin: auto;
-    background-color: rgb(61, 46, 40);
-
-}
-
-#photos {
-    float: left;
+    margin: 0 auto;
     width: inherit;
-    margin-top: 0.5em;
+    height: auto;
+    background-color: rgb(61, 46, 40);
 }
+
 
 
 #photos img{
-    background-color: coral;
-    width: 30%;
-    height: 8em;
-    float: left;
-    margin: 1.66%;
+    width: 29.7%;
+    margin: 1.5%;
     object-fit: cover;
 }
 
+/* #footer{
+    margin-top: 10px;
+    background-color: red;
+}
 
-#footer {
-    background-color: whitesmoke;
+#footer p{
     width: auto;
     height: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -83,8 +81,7 @@ body {
     font-size: 130%;
     padding:0.5px;
     text-align: center;
-    margin: auto;
-    margin-top: 1em;
+
 }
 
 #footer a {
@@ -92,4 +89,4 @@ body {
     text-decoration: none;
     background-image: linear-gradient(rgb(225,48,108), rgb(88,81,219));
     padding: 1px;
-}
+} */
