@@ -113,19 +113,19 @@ body {
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #04AA6D;
+    background-color: rgb(230, 76, 20);
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 9px rgb(107, 61, 61);
     margin-top: 1em;
 }
   
 .orderbutton:hover {
-    background-color: #3e8e41
+    background-color: rgb(209,119,85);
 }
   
 .orderbutton:active {
-    background-color: #3e8e41;
+    background-color: rgb(236, 85, 30);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -133,7 +133,7 @@ body {
 
 #photos {
     float: left;
-    margin: auto;
+    margin: 0 auto;
     width: inherit;
     height: auto;
     background-color: rgb(61, 46, 40);
@@ -152,7 +152,23 @@ body {
     margin: 0 auto;
   }
   
-  .zoom:hover {
+.zoom:hover {
     transform: scale(1.1); 
-  }
+}
+
+
+
+footer{
+    text-align: center;
+    border-radius: 3px solid blue;
+    background-color: rgb(209,119,85);
+    padding: auto;
+}
+
+
+footer p a{
+    text-decoration: none;
+    background-color: cornsilk;
+}
+
 
