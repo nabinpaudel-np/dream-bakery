@@ -84,7 +84,6 @@ body {
 
 }
 
-
 .typewriter-animation{
     animation: typewriter 4s steps(44) 1s 1 normal both,
                blinkTextCursor 500ms steps(44) infinite normal;
@@ -130,7 +129,6 @@ body {
     transform: translateY(4px);
 }
 
-
 #photos {
     float: left;
     margin: 0 auto;
@@ -138,7 +136,6 @@ body {
     height: auto;
     background-color: rgb(61, 46, 40);
 }
-
 
 #photos img{
     width: 29.4%;
@@ -156,15 +153,12 @@ body {
     transform: scale(1.1); 
 }
 
-
-
 footer{
     text-align: center;
     border-radius: 3px solid blue;
     background-color: rgb(209,119,85);
     padding: auto;
 }
-
 
 footer p a{
     text-decoration: none;
